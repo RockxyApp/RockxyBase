@@ -1,0 +1,45 @@
+name: Feature request
+description: Ask for something RockxyBase does not do yet, or does not do well.
+title: "Feature: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. Describing the problem you are trying to solve helps more than describing a button — there may be a better way to get you there.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What are you trying to do, and what gets in the way today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would help
+      description: How you imagine it working. Other tools that do it well are useful references.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Connecting and databases
+        - SQL editor and queries
+        - Result grid and export
+        - Explore and profiling
+        - Model
+        - Charts
+        - Reports
+        - Import
+        - Performance
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else

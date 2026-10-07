@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/RockxyApp/RockxyBase/security/advisories/new
+    about: Use a private GitHub Security Advisory for vulnerabilities — never a public issue.
+  - name: Licences and purchases
+    url: https://rockxy.io
+    about: Questions about a licence or a purchase.

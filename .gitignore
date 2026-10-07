@@ -1,0 +1,68 @@
+# RockxyBase — public distribution repository
+#
+# This repository is public. It carries the release feed, release notes, the policies and
+# the issue templates — and nothing else. RockxyBase is proprietary: its source code, plans,
+# research, agent and AI tooling, build output, signing material and credentials live in
+# the private source repository and must never land here.
+#
+# So this file is an allowlist. Everything is ignored, and only the files below are let
+# back in. A new public file is added here on purpose, after reading it; anything copied
+# into this folder by accident (a source tree, a plan, an agent file, a key) stays out
+# of every commit without anyone having to remember a pattern for it.
+
+# 1. Ignore everything, at every depth.
+/*
+/.*
+
+# 2. The public files, by name.
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/CHANGELOG.md
+!/SECURITY.md
+!/LICENSE
+!/CODE_OF_CONDUCT.md
+!/SUPPORT.md
+!/appcast.xml
+
+# 3. GitHub configuration: issue forms and the contact links only. No workflows: this
+#    repository runs no automation and holds no tokens.
+!/.github/
+/.github/*
+!/.github/ISSUE_TEMPLATE/
+/.github/ISSUE_TEMPLATE/*
+!/.github/ISSUE_TEMPLATE/bug_report.yml
+!/.github/ISSUE_TEMPLATE/feature_request.yml
+!/.github/ISSUE_TEMPLATE/config.yml
+
+# 4. Screenshots shown in the README, if any are published. PNG and JPEG only.
+!/docs/
+/docs/*
+!/docs/images/
+/docs/images/*
+!/docs/images/*.png
+!/docs/images/*.jpg
+
+# 5. Never, even inside an allowed folder — belt and braces for the rules above.
+**/.DS_Store
+**/*.swift
+**/*.xcodeproj
+**/*.xcworkspace
+**/*.xcconfig
+**/*.entitlements
+**/*.p8
+**/*.p12
+**/*.pem
+**/*.key
+**/*.cer
+**/*.mobileprovision
+**/*.dmg
+**/*.zip
+**/.env*
+**/.claude/
+**/.codex/
+**/.agents/
+**/.cursor/
+**/CLAUDE.md
+**/AGENTS.md
+**/GEMINI.md
