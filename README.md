@@ -12,13 +12,9 @@ browser, a server or a cloud account in between.
 
 ## Download
 
-Get the latest signed and notarized build from
-[**Releases**](https://github.com/RockxyApp/RockxyBase/releases/latest), open the disk
-image and drag **RockxyBase** to **Applications**.
-
-RockxyBase keeps itself up to date: **RockxyBase ▸ Check for Updates…**, or turn on automatic
-checks in **Settings ▸ Updates**. Every update is verified against a signing key built into
-the app before it is installed.
+RockxyBase 0.1.0 is in release validation. The signed download will appear in
+[**Releases**](https://github.com/RockxyApp/RockxyBase/releases) when published. The
+`appcast.xml` feed is ready for Sparkle and will list the first build at release time.
 
 **Requires** macOS 26.5 or later.
 
