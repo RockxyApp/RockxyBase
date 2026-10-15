@@ -46,6 +46,6 @@ hostnames or real data from your databases.
 
 ## License
 
-Copyright © 2026 AmunX. All rights reserved. See [LICENSE](LICENSE).
+Copyright © 2026 Rockxy LLC. All rights reserved. See [LICENSE](LICENSE).
 
 Part of the [Rockxy](https://rockxy.io) family of Mac apps.
