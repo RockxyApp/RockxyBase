@@ -6,6 +6,25 @@
         <description>RockxyBase release channel</description>
         <language>en</language>
         <item>
+            <title>0.1.1</title>
+            <pubDate>Thu, 15 Oct 2026 19:17:26 +0700</pubDate>
+            <sparkle:fullReleaseNotesLink>https://github.com/RockxyApp/RockxyBase/releases/tag/v0.1.1</sparkle:fullReleaseNotesLink>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# RockxyBase 0.1.1 (build 2)
+
+### Added
+
+- Recognize RockxyBase founding Personal, Professional and Lifetime licenses, with the
+  purchased Mac activation limit preserved for each plan.
+- Check the signed update entitlement before installing a newer app release. Lifetime licenses
+  continue to receive updates; other paid licenses keep access to their installed version
+  after the included update period ends.
+]]></description>
+            <enclosure url="https://github.com/RockxyApp/RockxyBase/releases/download/v0.1.1/RockxyBase-0.1.1-2.dmg" length="32706188" type="application/octet-stream" sparkle:edSignature="Hak7gw1hAdx6iautUG0m717H7xwsjurWVCmWzSxLe2lYdeUrn/DX/WMKRO7Is+e1Q0sQOoVAJuiN6aE2vlzNDw=="/>
+        </item>
+        <item>
             <title>0.1.0</title>
             <pubDate>Thu, 15 Oct 2026 16:56:24 +0700</pubDate>
             <sparkle:fullReleaseNotesLink>https://github.com/RockxyApp/RockxyBase/releases/tag/v0.1.0</sparkle:fullReleaseNotesLink>
