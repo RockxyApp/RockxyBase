@@ -5,5 +5,34 @@
         <link>https://raw.githubusercontent.com/RockxyApp/RockxyBase/main/appcast.xml</link>
         <description>RockxyBase release channel</description>
         <language>en</language>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Thu, 15 Oct 2026 16:56:24 +0700</pubDate>
+            <sparkle:fullReleaseNotesLink>https://github.com/RockxyApp/RockxyBase/releases/tag/v0.1.0</sparkle:fullReleaseNotesLink>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# RockxyBase 0.1.0 (build 1)
+
+The first release of RockxyBase.
+
+### Added
+
+- Connect to PostgreSQL 17 (including Supabase and Neon) and SQL Server 2022, over TLS by
+  default, directly or through an SSH tunnel; credentials are stored in the macOS Keychain.
+- SQL editor with completion, query plans, transactions and per-tab cancellation, and a
+  native result grid with sorting, filtering, copy and export.
+- Explore tables and results with database-computed profiles, distributions and outliers.
+- A semantic model — relationships, measures and calculated fields — to ask questions
+  without writing every join.
+- Native charts and multi-page reports with slicers, drill-down, drill-through and
+  cross-filtering; reports can be exported and shared as `.rockxybasereport` files.
+- Import CSV and Excel files into a local SQLite database.
+- Read-only connections enforced below the interface, and previews before schema or row
+  changes run.
+- Signed automatic updates.
+]]></description>
+            <enclosure url="https://github.com/RockxyApp/RockxyBase/releases/download/v0.1.0/RockxyBase-0.1.0-1.dmg" length="32703278" type="application/octet-stream" sparkle:edSignature="jve/RfVsoamt5GMrGKXPnniZHtKxr+xqb5BskJLw0HKKCUUuiynYSS+TWPwobCF8DpnHpa/GfRAjPJsHuVpuAQ=="/>
+        </item>
     </channel>
 </rss>
