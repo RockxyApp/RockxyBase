@@ -3,6 +3,21 @@
 All notable changes to RockxyBase are listed here. Each section is also the release note
 shown by the in-app updater and on the GitHub release.
 
+## [0.1.2] - 2026-10-16
+
+### Added
+
+- Recognize Pro Standard for one Mac, Pro Personal for two Macs, and Pro Standard
+  Monthly for one Mac in License settings.
+- Show the paid-through date for monthly licenses. Monthly Pro access continues through
+  its signed paid period, including after cancellation and while offline, and renewals
+  refresh that period when the app reconnects.
+
+### Fixed
+
+- End monthly Pro access when its signed paid period expires while keeping existing
+  founding and perpetual purchases under their original terms.
+
 ## [0.1.1] - 2026-10-15
 
 ### Added
