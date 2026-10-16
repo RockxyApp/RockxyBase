@@ -6,6 +6,30 @@
         <description>RockxyBase release channel</description>
         <language>en</language>
         <item>
+            <title>0.1.2</title>
+            <pubDate>Fri, 16 Oct 2026 13:19:56 +0700</pubDate>
+            <sparkle:fullReleaseNotesLink>https://github.com/RockxyApp/RockxyBase/releases/tag/v0.1.2</sparkle:fullReleaseNotesLink>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# RockxyBase 0.1.2 (build 3)
+
+### Added
+
+- Recognize Pro Standard for one Mac, Pro Personal for two Macs, and Pro Standard
+  Monthly for one Mac in License settings.
+- Show the paid-through date for monthly licenses. Monthly Pro access continues through
+  its signed paid period, including after cancellation and while offline, and renewals
+  refresh that period when the app reconnects.
+
+### Fixed
+
+- End monthly Pro access when its signed paid period expires while keeping existing
+  founding and perpetual purchases under their original terms.
+]]></description>
+            <enclosure url="https://github.com/RockxyApp/RockxyBase/releases/download/v0.1.2/RockxyBase-0.1.2-3.dmg" length="31719919" type="application/octet-stream" sparkle:edSignature="457TXgUW7EHP3wcN5POBi87yTEEPjojMg65Rs8kgMGV5D8RcXUQJunsfO4m3F9VXmICVPiT8Ri4AjlKPWZOPCQ=="/>
+        </item>
+        <item>
             <title>0.1.1</title>
             <pubDate>Thu, 15 Oct 2026 19:17:26 +0700</pubDate>
             <sparkle:fullReleaseNotesLink>https://github.com/RockxyApp/RockxyBase/releases/tag/v0.1.1</sparkle:fullReleaseNotesLink>
