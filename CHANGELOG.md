@@ -3,6 +3,17 @@
 All notable changes to RockxyBase are listed here. Each section is also the release note
 shown by the in-app updater and on the GitHub release.
 
+## [0.1.3] - 2026-10-16
+
+### Added
+
+- Recognize Pro Personal Monthly for one person on up to two Macs. Pro access follows
+  the signed paid period and refreshes after a successful online renewal check.
+- Recognize Team Annual creator seats, with one active Mac per named creator. Team
+  seats require an online check at least every seven days to continue Pro access.
+- Show the Team seat check date separately from the annual paid-through date in
+  License settings.
+
 ## [0.1.2] - 2026-10-16
 
 ### Added
