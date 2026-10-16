@@ -3,6 +3,15 @@
 All notable changes to RockxyBase are listed here. Each section is also the release note
 shown by the in-app updater and on the GitHub release.
 
+## [0.1.4] - 2026-10-16
+
+### Improved
+
+- Recognize the Founding launch prices for Pro Personal Monthly and Team Annual
+  purchases while preserving each plan's existing license and Mac limits.
+- Keep Pro Personal Monthly access on up to two Macs and Team Annual access on
+  one Mac per named creator when the purchase uses a Founding price.
+
 ## [0.1.3] - 2026-10-16
 
 ### Added
