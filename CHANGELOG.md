@@ -3,6 +3,21 @@
 All notable changes to RockxyBase are listed here. Each section is also the release note
 shown by the in-app updater and on the GitHub release.
 
+## [0.1.5] - 2026-10-19
+
+### Improved
+
+- Check the source connection and selected destination again before copying a table, so a
+  changed connection or saved destination requires a fresh preview.
+- Recheck each SQL statement against the reviewed file before running it. If the file
+  changes after review, RockxyBase stops before sending the changed statement.
+- Roll back a multi-statement SQL file when the run is cancelled before completion.
+
+### Fixed
+
+- Keep a changed SQL Server password with an unsaved connection draft when its login
+  endpoint differs from the saved profile, rather than replacing the saved credential.
+
 ## [0.1.4] - 2026-10-16
 
 ### Improved
