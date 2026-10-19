@@ -11,11 +11,6 @@ shown by the in-app updater and on the GitHub release.
   and offer activation again where a license check cannot recover the record.
 - Keep report drill-through targets within the report that owns the selected visual.
 
-### Fixed
-
-- Keep Power BI and Tableau report exports tied to the report's mapped database
-  engine and include only the model items used by the exported report.
-
 ## [0.1.5] - 2026-10-19
 
 ### Improved
