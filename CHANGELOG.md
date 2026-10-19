@@ -15,8 +15,6 @@ shown by the in-app updater and on the GitHub release.
 
 - Keep Power BI and Tableau report exports tied to the report's mapped database
   engine and include only the model items used by the exported report.
-- Refuse to inspect linked Power BI and Tableau project content outside the folder
-  chosen for import.
 
 ## [0.1.5] - 2026-10-19
 
