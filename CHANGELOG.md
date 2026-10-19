@@ -7,6 +7,8 @@ shown by the in-app updater and on the GitHub release.
 
 ### Improved
 
+- Explain an interrupted local license check and guide recovery through Check License
+  while online before asking for a new activation.
 - Check the source connection and selected destination again before copying a table, so a
   changed connection or saved destination requires a fresh preview.
 - Recheck each SQL statement against the reviewed file before running it. If the file
