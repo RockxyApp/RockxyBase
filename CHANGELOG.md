@@ -21,6 +21,8 @@ shown by the in-app updater and on the GitHub release.
 
 ### Fixed
 
+- Keep a report chart drawable when drilling from a time axis into a text or calendar
+  level, and restore its original line when drilling back up.
 - Escape formula-like text in CSV and TSV exports when whitespace or control characters
   appear before the formula marker.
 - Keep a changed SQL Server password with an unsaved connection draft when its login
