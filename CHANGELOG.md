@@ -7,6 +7,10 @@ shown by the in-app updater and on the GitHub release.
 
 ### Improved
 
+- Include database, transfer, drawing, and result-size details when copying a report's
+  Performance Analyzer output. A visual being refreshed is marked as reading.
+- Flag unsupported relationship cardinality during Power BI model import so it can be
+  reviewed and added manually instead of showing the wrong relationship type.
 - Explain an interrupted local license check and guide recovery through Check License
   while online before asking for a new activation.
 - Check the source connection and selected destination again before copying a table, so a
