@@ -3,13 +3,18 @@
 All notable changes to RockxyBase are listed here. Each section is also the release note
 shown by the in-app updater and on the GitHub release.
 
-## [0.1.6] - 2026-10-20
+## [0.1.6] - 2026-10-21
 
 ### Improved
 
 - Explain when a local license record cannot be read or its seal cannot be verified,
   and offer activation again where a license check cannot recover the record.
 - Keep report drill-through targets within the report that owns the selected visual.
+
+### Fixed
+
+- Read SSH config Host aliases with their original letter case, ignore trailing comments,
+  and keep commas in agent Include filenames instead of treating them as separators.
 
 ## [0.1.5] - 2026-10-19
 
