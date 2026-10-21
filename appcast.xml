@@ -6,6 +6,28 @@
         <description>RockxyBase release channel</description>
         <language>en</language>
         <item>
+            <title>0.1.6</title>
+            <pubDate>Wed, 21 Oct 2026 10:47:07 +0700</pubDate>
+            <sparkle:fullReleaseNotesLink>https://github.com/RockxyApp/RockxyBase/releases/tag/v0.1.6</sparkle:fullReleaseNotesLink>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# RockxyBase 0.1.6 (build 11)
+
+### Improved
+
+- Explain when a local license record cannot be read or its seal cannot be verified,
+  and offer activation again where a license check cannot recover the record.
+- Keep report drill-through targets within the report that owns the selected visual.
+
+### Fixed
+
+- Read SSH config Host aliases with their original letter case, ignore trailing comments,
+  and keep commas in agent Include filenames instead of treating them as separators.
+]]></description>
+            <enclosure url="https://github.com/RockxyApp/RockxyBase/releases/download/v0.1.6/RockxyBase-0.1.6-11.dmg" length="82381811" type="application/octet-stream" sparkle:edSignature="YvUXPthLppp2B52lnj3Lc6gs3U6QMXUGANv1jaCfmaaisTpw+6+6+qHUXT1vUZ7+2hMh8NKbxO/8F47Xxm0NBg=="/>
+        </item>
+        <item>
             <title>0.1.4</title>
             <pubDate>Fri, 16 Oct 2026 21:58:44 +0700</pubDate>
             <sparkle:fullReleaseNotesLink>https://github.com/RockxyApp/RockxyBase/releases/tag/v0.1.4</sparkle:fullReleaseNotesLink>
