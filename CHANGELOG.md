@@ -3,6 +3,28 @@
 All notable changes to RockxyBase are listed here. Each section is also the release note
 shown by the in-app updater and on the GitHub release.
 
+## [0.2.0] - 2026-10-28
+
+### Added
+
+- Find values across tables, compare query results, and preview rows affected by a cascading delete.
+- Pin workspace tabs, import several CSV files into existing tables, and export schema diagrams and data dictionaries.
+- Build pivot tables with subtotals, foldable row groups and measure-first columns.
+- Add report time comparisons, role-based viewing, and automatic page refresh.
+- Use local assistant providers and review the data sent with each question.
+
+### Improved
+
+- Show clearer connection failures, query completion and cancellation feedback, and recovery actions after connection loss.
+- Keep read-only and production safeguards across more query, report and import workflows.
+- Improve keyboard and VoiceOver access to workspace tabs, pivots and result views.
+
+### Fixed
+
+- Keep query results, imports and exports from reporting success after cancellation.
+- Correct pivot totals, saved fold state and report rendering.
+- Strengthen import parsing, statement handling and credential redaction.
+
 ## [0.1.6] - 2026-10-21
 
 ### Improved
