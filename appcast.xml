@@ -6,6 +6,37 @@
         <description>RockxyBase release channel</description>
         <language>en</language>
         <item>
+            <title>0.2.0</title>
+            <pubDate>Wed, 28 Oct 2026 22:55:45 +0700</pubDate>
+            <sparkle:fullReleaseNotesLink>https://github.com/RockxyApp/RockxyBase/releases/tag/v0.2.0</sparkle:fullReleaseNotesLink>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# RockxyBase 0.2.0 (build 12)
+
+### Added
+
+- Find values across tables, compare query results, and preview rows affected by a cascading delete.
+- Pin workspace tabs, import several CSV files into existing tables, and export schema diagrams and data dictionaries.
+- Build pivot tables with subtotals, foldable row groups and measure-first columns.
+- Add report time comparisons, role-based viewing, and automatic page refresh.
+- Use local assistant providers and review the data sent with each question.
+
+### Improved
+
+- Show clearer connection failures, query completion and cancellation feedback, and recovery actions after connection loss.
+- Keep read-only and production safeguards across more query, report and import workflows.
+- Improve keyboard and VoiceOver access to workspace tabs, pivots and result views.
+
+### Fixed
+
+- Keep query results, imports and exports from reporting success after cancellation.
+- Correct pivot totals, saved fold state and report rendering.
+- Strengthen import parsing, statement handling and credential redaction.
+]]></description>
+            <enclosure url="https://github.com/RockxyApp/RockxyBase/releases/download/v0.2.0/RockxyBase-0.2.0-12.dmg" length="89167585" type="application/octet-stream" sparkle:edSignature="+ixcrrkbpT0+5ikFPMttTeP+khTKmBgtTCyAnDPJ8wDwTmdSxUEj08uN9yZrZ18isMCBhAHsTvW9ta6cTM01DA=="/>
+        </item>
+        <item>
             <title>0.1.6</title>
             <pubDate>Wed, 21 Oct 2026 10:47:07 +0700</pubDate>
             <sparkle:fullReleaseNotesLink>https://github.com/RockxyApp/RockxyBase/releases/tag/v0.1.6</sparkle:fullReleaseNotesLink>
