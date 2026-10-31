@@ -7,35 +7,40 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping improve RockxyBase. **Never include passwords, connection strings, API keys, private hostnames or real data from your databases** — use a disposable database or describe the shape of the data instead. Security vulnerabilities belong in a private Security Advisory, not here.
+        Read the [bug reporting guide](https://github.com/RockxyApp/RockxyBase/blob/main/BUG_REPORTING.md) for a complete example. Search existing issues first. Use a disposable or sample database. **Never include credentials, connection strings, private addresses, account names, file paths with your username, licence details, or real database data.** Report security vulnerabilities through a private Security Advisory.
   - type: input
     id: version
     attributes:
       label: RockxyBase version
       description: RockxyBase ▸ About RockxyBase, or Settings ▸ Updates.
-      placeholder: "0.1.0 (1)"
+      placeholder: "0.x.x (build x)"
     validations:
       required: true
   - type: input
     id: macos
     attributes:
       label: macOS version
-      placeholder: "macOS 26.5"
+      placeholder: "macOS 26.x"
     validations:
       required: true
   - type: dropdown
     id: engine
     attributes:
-      label: Database
+      label: Data source
       options:
         - PostgreSQL
         - PostgreSQL via Supabase
         - PostgreSQL via Neon
         - SQL Server
-        - Imported CSV or Excel file
+        - Imported file or local database
         - Not database-specific
     validations:
       required: true
+  - type: input
+    id: engine_version
+    attributes:
+      label: Database engine version (if applicable)
+      placeholder: "For example, PostgreSQL 17"
   - type: dropdown
     id: area
     attributes:
@@ -58,6 +63,7 @@ body:
     id: steps
     attributes:
       label: Steps to reproduce
+      description: Use a disposable or sample dataset and the smallest repeatable sequence.
       placeholder: |
         1. Connect to …
         2. Run …
@@ -74,18 +80,29 @@ body:
     id: actual
     attributes:
       label: What happened instead
-      description: Include the exact error text if there was one. Remove anything private first.
+      description: Include exact error text if available, after removing private details. For a crash, mention whether work was lost.
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Sometimes
+        - Once
+        - Unsure
     validations:
       required: true
   - type: textarea
     id: extra
     attributes:
       label: Anything else
-      description: Screenshots (with private data hidden), how often it happens, whether it started after an update.
+      description: Impact, last working version (if known), and cropped screenshots or short recordings using sample data. Check every frame before attaching.
   - type: checkboxes
     id: privacy
     attributes:
       label: Privacy check
       options:
-        - label: This report contains no passwords, connection strings, private hostnames or real data.
+        - label: "I checked the text and all attachments: they contain no credentials, private addresses, account names, identifying local paths, licence details, or real database data."
           required: true

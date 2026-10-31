@@ -18,6 +18,7 @@
 !/.gitignore
 !/.gitattributes
 !/README.md
+!/BUG_REPORTING.md
 !/CHANGELOG.md
 !/SECURITY.md
 !/LICENSE
@@ -42,6 +43,7 @@
 /docs/images/*
 !/docs/images/*.png
 !/docs/images/*.jpg
+!/docs/images/*.webp
 
 # 5. Never, even inside an allowed folder — belt and braces for the rules above.
 **/.DS_Store
