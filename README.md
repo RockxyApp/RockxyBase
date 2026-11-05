@@ -16,9 +16,9 @@ browser, a server or a cloud account in between.
 
 ## Download
 
-**RockxyBase 0.2.0 (build 12)** is available as a public Mac beta. [Download the signed DMG](https://github.com/RockxyApp/RockxyBase/releases/download/v0.2.0/RockxyBase-0.2.0-12.dmg) or read the [release notes](https://github.com/RockxyApp/RockxyBase/releases/tag/v0.2.0).
+**RockxyBase 0.3.0 (build 13)** is available as a public Mac beta. [Download the signed DMG](https://github.com/RockxyApp/RockxyBase/releases/download/v0.3.0/RockxyBase-0.3.0-13.dmg) or read the [release notes](https://github.com/RockxyApp/RockxyBase/releases/tag/v0.3.0).
 
-For newer builds, check [Releases](https://github.com/RockxyApp/RockxyBase/releases).
+For future builds, check [Releases](https://github.com/RockxyApp/RockxyBase/releases).
 
 **Requires** macOS 26.5 or later.
 
