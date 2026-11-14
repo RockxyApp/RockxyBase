@@ -3,6 +3,24 @@
 All notable changes to RockxyBase are listed here. Each section is also the release note
 shown by the in-app updater and on the GitHub release.
 
+## [0.5.0] - 2026-11-14
+
+### Added
+
+- Build a SELECT query from a table using columns, filters, sorting, a row limit, and an optional join. The builder quotes identifiers for the connected database and binds filter values.
+- Edit SQL at multiple carets, select the next matching occurrence, or use Option-drag for a column selection. Function calls now show the active argument while you type.
+- Create and alter PostgreSQL sequences and enum, composite, or domain types through a form that shows the SQL before it runs.
+- Schedule recurring query exports while RockxyBase is open. Export results as XML, Parquet, or a compressed zip, and import Parquet files into a database.
+- Apply color scales, data bars, and status icons to matrix cells. Freeze leading result columns and keep your chosen column order.
+- Open DuckDB databases and Parquet, CSV, or JSON files locally for SQL exploration. A double-clicked Parquet file opens as a DuckDB view; use File > Open Data Files to import it into a database.
+- Add narrative cards to reports. Their figures are recomputed from the report's data when filters or selections change.
+
+### Improved
+
+- Search the catalog across views, routines, triggers, indexes, and sequences, including routine definitions. Schema comparison now includes views, routines, and triggers.
+- Copy selected result cells as an HTML table, and import rows with an optional error log for rows that fail.
+- PostgreSQL and SQL Server query cancellation returns the editor to a usable state so you can run another statement.
+
 ## [0.3.0] - 2026-11-05
 
 ### Added
