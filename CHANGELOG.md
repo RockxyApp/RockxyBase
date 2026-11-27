@@ -3,6 +3,12 @@
 All notable changes to RockxyBase are listed here. Each section is also the release note
 shown by the in-app updater and on the GitHub release.
 
+## [0.5.2] - 2026-11-27
+
+### Fixed
+
+- Activate and validate Polar LIVE license keys that include the RockxyBase product prefix. Existing Lemon Squeezy and Polar Sandbox keys remain supported.
+
 ## [0.5.1] - 2026-11-27
 
 ### Added
