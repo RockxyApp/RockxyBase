@@ -6,6 +6,21 @@
         <description>RockxyBase release channel</description>
         <language>en</language>
         <item>
+            <title>0.5.2</title>
+            <pubDate>Fri, 27 Nov 2026 21:53:49 +0700</pubDate>
+            <sparkle:fullReleaseNotesLink>https://github.com/RockxyApp/RockxyBase/releases/tag/v0.5.2</sparkle:fullReleaseNotesLink>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# RockxyBase 0.5.2 (build 18)
+
+### Fixed
+
+- Activate and validate Polar LIVE license keys that include the RockxyBase product prefix. Existing Lemon Squeezy and Polar Sandbox keys remain supported.
+]]></description>
+            <enclosure url="https://github.com/RockxyApp/RockxyBase/releases/download/v0.5.2/RockxyBase-0.5.2-18.dmg" length="97469431" type="application/octet-stream" sparkle:edSignature="Yrzf0rSetksPeJW5U6Dnv7ppbhDRbowA5ZhukUCK9LRrZRlbApqQn4jcxnt/4lDNtjAcL4QfU6Kis0RcI/7nCw=="/>
+        </item>
+        <item>
             <title>0.5.1</title>
             <pubDate>Fri, 27 Nov 2026 18:13:44 +0700</pubDate>
             <sparkle:fullReleaseNotesLink>https://github.com/RockxyApp/RockxyBase/releases/tag/v0.5.1</sparkle:fullReleaseNotesLink>
