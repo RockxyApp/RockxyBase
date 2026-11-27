@@ -3,6 +3,16 @@
 All notable changes to RockxyBase are listed here. Each section is also the release note
 shown by the in-app updater and on the GitHub release.
 
+## [0.5.1] - 2026-11-27
+
+### Added
+
+- Activate RockxyBase Pro licenses purchased through Polar, including Standard, Personal, Monthly, and Team Annual plans. The app verifies the signed plan, product, billing period, and Mac limit.
+
+### Improved
+
+- Existing Lemon Squeezy licenses continue to retain their original plan and update rights.
+
 ## [0.5.0] - 2026-11-14
 
 ### Added
