@@ -6,6 +6,25 @@
         <description>RockxyBase release channel</description>
         <language>en</language>
         <item>
+            <title>0.5.1</title>
+            <pubDate>Fri, 27 Nov 2026 18:13:44 +0700</pubDate>
+            <sparkle:fullReleaseNotesLink>https://github.com/RockxyApp/RockxyBase/releases/tag/v0.5.1</sparkle:fullReleaseNotesLink>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# RockxyBase 0.5.1 (build 17)
+
+### Added
+
+- Activate RockxyBase Pro licenses purchased through Polar, including Standard, Personal, Monthly, and Team Annual plans. The app verifies the signed plan, product, billing period, and Mac limit.
+
+### Improved
+
+- Existing Lemon Squeezy licenses continue to retain their original plan and update rights.
+]]></description>
+            <enclosure url="https://github.com/RockxyApp/RockxyBase/releases/download/v0.5.1/RockxyBase-0.5.1-17.dmg" length="97481994" type="application/octet-stream" sparkle:edSignature="rUyqEU2x0szk7TFxKlCg8qVvtYv1w6EVhRhUDr2IEx35SzPdX/TNf/rdn2ZEKn/4e5gx7cHzbTajTe432UlRAg=="/>
+        </item>
+        <item>
             <title>0.5.0</title>
             <pubDate>Sat, 14 Nov 2026 15:04:18 +0700</pubDate>
             <sparkle:fullReleaseNotesLink>https://github.com/RockxyApp/RockxyBase/releases/tag/v0.5.0</sparkle:fullReleaseNotesLink>
